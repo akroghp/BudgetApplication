@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.FXML.CreateAccount">
+   <children>
+      <Button layoutX="271.0" layoutY="290.0" mnemonicParsing="false" text="Next" />
+      <TextField id="name_textField" layoutX="217.0" layoutY="101.0" promptText="Name" />
+      <TextField id="email_textField" layoutX="217.0" layoutY="151.0" promptText="Email" />
+      <PasswordField id="passwordField" layoutX="217.0" layoutY="200.0" promptText="password" />
+      <PasswordField id="passwordField_Confirmation" layoutX="217.0" layoutY="250.0" promptText="password confirmation" />
+   </children>
+</AnchorPane>
